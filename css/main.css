@@ -1,0 +1,49 @@
+/* # Vision Board Project Style Guide */
+
+:root {
+--yellow:#FFF44F;
+--white:#FFFFFF;
+--lightgray:#E8E8E8;
+--darkgray:#3B3B3B;
+}
+
+/* ## Images
+Images are in the ‘img’ folder
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+
+## Fonts
+- Montserrat (700)
+- Permanent Marker (normal)
+- Sizes: 20px | 30px | 38px */
+
+body {
+    background-color:var(--lightgray);
+}
+
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    text-align: center;
+    overflow:auto;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.large-block {
+    height: 430px;
+}
+
+.small-block {
+    height: 210px;
+}
+
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+
